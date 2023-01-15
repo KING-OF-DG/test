@@ -7,7 +7,7 @@ bitt=platform.architecture()[0]
 if bitt=="32bit":
     os.system('clear');print('[!] Your Device is 32 bit');time.sleep(1);print('\n\n[!] Your Python Version :');time.sleep(1);os.system('python --version')
     time.sleep(2)
-    import Open32.muhib
+    import MXD.muhib
 
 else:
 
