@@ -167,7 +167,7 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    code = int(input(f' [{xr}^{x}] Example>: {xr}019,017,018,{x}]  \n\033[38;5;208m═════════════════════════════════════════ \n\033[0;97m[{xr}➣ {x}] \033[0;92mGIVE CRACKING code:\033[0;92m '))'))
+    code = int(input(f' [{xr}^{x}] Example>: {xr}019,017,018,{x}]  \n\033[38;5;208m═════════════════════════════════════════ \n\033[0;97m[{xr}➣ {x}] \033[0;92mGIVE CRACKING code:\033[0;92m '))
     print(" ══════════════════════════════════════════")
     for nmbr in range(code):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
