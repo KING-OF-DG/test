@@ -1,5 +1,5 @@
-# Facebook: Tutul King
-# Github: Tutul-King
+# Facebook: MUHIB-143
+# Github: MUHIB-143
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -90,7 +90,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/554714119911648/')
+os.system('xdg-open /')
 logo =("""\033[0;92m
 ╔═══════════════════════════════════════════════════╗
 \033[0;95m║\033[0;92m ████████╗\033[0;91m ██╗   ██╗\033[0;94m ████████╗\033[0;93m ██╗   ██╗\033[0;95m  ██╗      ║
@@ -170,14 +170,11 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    print(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}')
-    print(" ══════════════════════════════════════════")
-    rk1 = '0171'
-    rk2 = '0172'
-    rk3 = '0175'
-    rk4 = '017'
-    code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}■{x}] Choose : ')
-    os.system('clear')
+    code = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
+    for nmbr in range(code):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    os.system("clear")
     print(logo)
     limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
     for nmbr in range(limit):
