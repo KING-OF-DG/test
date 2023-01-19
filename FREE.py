@@ -167,7 +167,8 @@ def xxr():
     os.geteuid
     os.system("clear")
     print(logo)
-    code = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING code:\033[0;93m '))
+    code = int(input(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}'))
+    print(" ══════════════════════════════════════════")
     for nmbr in range(code):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
